@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git url: 'https://github.com/Shilpha27/BookStoreApiAutomatiom.git', branch: 'master'
+        git url: 'https://github.com/rkumarn222/BookStoreApiAuto.git', branch: 'master'
       }
     }
 
